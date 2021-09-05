@@ -32,11 +32,9 @@ public static void main(String[] args){
     n2 = lerTeclado.nextInt();
      
 
-    for (int cont = 1; cont <= n; cont++){
-      if(n % cont == 0) {
-           qtdiv++;
-           v.add(cont);
-           
+    for (int cont = n; cont <= n2; cont++){
+      if(ePrimo(cont) == true  ) {
+           v.add(cont);           
         }
   }
     // ePrimo executa a variavel n

@@ -28,7 +28,7 @@ public static void main(String[] args){
     // Variavel Min
     n = lerTeclado.nextInt();
     // Variavel Max
-    System.out.print("Digite o número Max:");
+    System.out.print("Digite o numero Max:");
     n2 = lerTeclado.nextInt();
      
 
@@ -38,10 +38,9 @@ public static void main(String[] args){
         }
   }
     // ePrimo executa a variavel n
-    ePrimo(n);
     System.out.print(ePrimo(n));
     if (ePrimo(n) == true ){
-     System.out.print(" , o numero e primo ");
+     System.out.print(" os numeros primos entre " + n + " e "+ n2 + " sao:\n");
     }
     else {
      System.out.print(" , o numero nao e primo ");
